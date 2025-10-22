@@ -117,6 +117,7 @@ from .bleacherreport import (
 from .blinkx import BlinkxIE
 from .bloomberg import BloombergIE
 from .bokecc import BokeCCIE
+from .bostonglobe import BostonGlobeIE
 from .bpb import BpbIE
 from .br import BRIE
 from .bravotv import BravoTVIE
@@ -246,10 +247,7 @@ from .dfb import DFBIE
 from .dhm import DHMIE
 from .dotsub import DotsubIE
 from .douyutv import DouyuTVIE
-from .dplay import (
-    DPlayIE,
-    DPlayItIE,
-)
+from .dplay import DPlayIE
 from .dramafever import (
     DramaFeverIE,
     DramaFeverSeriesIE,
@@ -1003,7 +1001,6 @@ from .tunein import (
     TuneInTopicIE,
     TuneInShortenerIE,
 )
-from .tunepk import TunePkIE
 from .turbo import TurboIE
 from .tutv import TutvIE
 from .tv2 import (
